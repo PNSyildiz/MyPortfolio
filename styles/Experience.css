@@ -20,7 +20,7 @@
      .columns{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+       
      }
     .projects__card{
         width: 300px;
@@ -29,7 +29,6 @@
         overflow: hidden;
         border: 5px solid #cb9c43f4;
         position: relative;
-        justify-content: space-around;
     }
     .card-img{
         width: 100%;
