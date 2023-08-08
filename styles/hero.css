@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+.hero{
+    background-image: url("assets/HeroImage.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position:fixed;
+    margin-top: 0%;
+    height: 650px;
+    background-repeat: no-repeat;
+    width: 490px;
+
+}
+.hero__main img{
+    height: auto;
+    overflow: hidden;
+    width: 499px;
+    z-index: -1;
+    position: fixed;
+}
+
+.logo{
+    border-radius: 100px;
+    background-color:transparent;
+    font-size: 60px;
+    align-items: center;
+    justify-content:space-around;   
+     height: 140px;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: center;
+    padding: 20px;
+    width: 145px;
+    text-decoration:line-through;
+}
+.hero__main{
+    display:column ;
+    align-items:start ;
+    justify-content: left;
+}
+
+
+
+.contacts{
+display: flex;
+margin-top: 25px;
+margin-right: 150px;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.hero h1{
+    color:rgb(255, 255, 255);
+    margin-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px; 
+}
+.hero h2{
+    color: rgb(255, 252, 252);
+    margin-left: 10px;
+    font-size : 30px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.hero h4{
+    color: rgb(255, 255, 255);
+    margin-left:49px ;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+ 
+.email {
+    background-color:transparent;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px; 
+    margin-top: 400px;
+    position:fixed;
+    font-weight :800;
+  border:solid rgb(0, 0, 0);
+  color:rgb(253, 250, 248);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    
+ }
+
+
+.hero-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    border-radius: 100px;
+    margin-left: 130px;
+    margin-top: 550px ;
+    position: fixed;
+}
+.hero-socials i{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    size-adjust: 20px;
+    color: rgb(8, 8, 8);
+}
+
+
+ 

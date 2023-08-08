@@ -1,0 +1,48 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+.Projects{
+    margin-left: 600px;
+    font-family:'Courier New', Courier, monospace;
+    display: column;
+    padding: 50px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -10;
+}
+
+.Projects h1{
+margin-bottom: 25px;
+margin-top: 30PX;
+font-size: 50px;
+}
+.project__card {
+  display: flex;
+  flex-direction: row;
+    animation: slide infinite 10s linear;
+    border-radius: 10%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  
+  .project__card iframe{
+    border-radius: 8%;
+    width: 375px; 
+    height: 500px;
+    overflow: hidden;
+    object-fit: cover; 
+    z-index: -20;
+  }
+  @keyframes slide {
+    10% {
+      transform: translateX(0);
+    }
+    100%{
+      transform:translateX(-100%);
+    }
+  }
+ 
+  
